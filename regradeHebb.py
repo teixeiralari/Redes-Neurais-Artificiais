@@ -1,3 +1,6 @@
+'''Regra de Hebb para das portas lógicas'''
+
+
 import numpy as np
 
 tabela =[[-1, -1],[-1,1],[1,-1],[1,1]]
