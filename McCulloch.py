@@ -12,7 +12,7 @@ def somador1bit(x1,x2):
 
 
 tabela = [[0, 0],[0,1],[1,0],[1,1]]
-for i in range(4):
+for i in range(len(tabela)):
     x1,x2 = tabela[i][0],tabela[i][1]
     y = somador1bit(x1,x2)
     print("As entradas sao {0} e {1}".format(x1,x2))
