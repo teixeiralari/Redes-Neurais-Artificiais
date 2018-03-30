@@ -18,8 +18,3 @@ for i in range(4):
     print("As entradas sao {0} e {1}".format(x1,x2))
     print("Saida: %d" %(y))
 
-
-'''def RegraHebb(x1,x2,w1_antigo=0,w2_antigo=0,b=0,limiar=0):
-    w1_novo = w1_antigo + x1*y
-    w2_novo = w2_antigo + x2*y
-    b_novo = b_antigo + y    '''
