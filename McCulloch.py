@@ -1,3 +1,6 @@
+"McCulloch-Pitts para a porta lógica XOR"
+
+
 def McCullochPitts(x1,x2,p1,p2,limiar):
     saida = x1*p1+x2*p2
     if saida < limiar:
